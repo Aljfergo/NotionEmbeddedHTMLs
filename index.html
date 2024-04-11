@@ -22,8 +22,16 @@
 
     <script>
         function abrirEnlaces() {
-            window.open('https://drive.google.com/', '_blank');
-            window.open('https://technosylva.bamboohr.com/home/', '_blank');
+            abrirEnlace('https://enlace1.com');
+            abrirEnlace('https://enlace2.com');
+            abrirEnlace('https://enlace3.com');
+        }
+
+        function abrirEnlace(url) {
+            var a = document.createElement('a');
+            a.href = url;
+            a.target = '_blank';
+            a.click();
         }
     </script>
 </body>
