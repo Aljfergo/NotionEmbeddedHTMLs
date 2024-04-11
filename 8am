@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón de 8 de la mañana</title>
+</head>
+<body>
+    <button style="background-color: white; color: black; padding: 10px 20px; font-size: 16px; border: none; cursor: pointer;" onclick="openUrls()">8 de la mañana</button>
+
+    <script>
+        function openUrls() {
+            window.open('https://technosylva.bamboohr.com/home/', '_blank');
+        }
+    </script>
+</body>
+</html>
