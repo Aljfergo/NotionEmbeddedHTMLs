@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Botón de 8 de la mañana</title>
+    <style>
+        .boton-8am {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            font-family: 'Roboto', sans-serif;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <button style="background-color: white; color: black; padding: 10px 20px; font-size: 16px; border: none; cursor: pointer;" onclick="openUrls()">8 de la mañana</button>
+    <button class="boton-8am" onclick="abrirEnlaces()">8 de la mañana</button>
 
     <script>
-        function openUrls() {
+        function abrirEnlaces() {
+            window.open('https://drive.google.com/', '_blank');
             window.open('https://technosylva.bamboohr.com/home/', '_blank');
         }
     </script>
